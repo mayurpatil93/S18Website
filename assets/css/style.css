@@ -3818,8 +3818,18 @@ header .menus .submenu a.active {
     background: linear-gradient(220deg, #ff4d7e, #2d47c7, #6a00ff);
 }
 
+.bg-plain-img {
+    
+    background-image: url(../images/bgcolorimg-light.jpg)
+}
+.bg-shape{
+    background-image: url(../images/footer-shape.png)
+}
+
 .bg-black\/1{
-    background: linear-gradient(270deg, #ff4d7e, #2d47c7, #6a00ff);
+    background: rgb(20,8,54);
+    /* background: linear-gradient(315deg, rgba(20,8,54,1) 0%, rgba(254,54,127,1) 33%, rgba(62,11,132,1) 86%, rgba(119,0,214,1) 100%); */
+
 }
 
 .bg-black {
@@ -3841,9 +3851,12 @@ header .menus .submenu a.active {
     /* Example: 135deg (diagonal top left to bottom right) */
     background: linear-gradient(135deg, #ff4d7e, #2d47c7, #6a00ff);
 
-    background: 
+    background: rgb(20,8,54);
+    background: linear-gradient(315deg, rgba(20,8,54,1) 0%, rgba(254,54,127,1) 33%, rgba(62,11,132,1) 86%, rgba(119,0,214,1) 100%);
+
+    /* background: 
     radial-gradient(ellipse, #ff4d7e, #2d47c7, transparent 50%),
-    linear-gradient(270deg, #ff4d7e, #2d47c7, #6a00ff);
+    linear-gradient(270deg, #ff4d7e, #2d47c7, #6a00ff); */
 
 
 
